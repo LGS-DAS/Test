@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--  -->
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>League of Legends Info</title>
+  <style media="screen">
+    th,
+    td {
+      border: 1px solid; width: 75px; height: 35px;
+    }
+    table { border-collapse: collapse;}
+
+  </style>
+</head>
+
+<body>
+  이름 <input type="text" name="NAME" placeholder="ex)홍길동" autofocus minlength="3" maxlength="5" > <br>
+  이름 <input type="text" name="name"placeholde="읽기전용" readonly> <br>
+  숫자 <input type="number" name="NUMBER" placeholder="ex)15" min="0" max="50" step="5"> <br>
+  아이디 <input type="text" name="ID"> <br>
+  비밀번호 <input type="text" name="PASSWORD" > [ input type : text ]<br> <br>
+  성별 : 남자<input type="radio" name="GENDER"> 여자 <input type="radio" name="GENDER"> [ input type : radio ]<br>
+  게임  : 롤 <input type="checkbox" name="GAME" checked> 스타 <input type="checkbox" name="GAME" checked> 피파 <input type="checkbox" name="GAME" checked> [ input type : checkbox ]<br>
+<table>
+  <caption>Specification values</caption>
+  <thead>
+    <tr>
+      <th rowspan="2">Grade.</th> <th rowspan="2">Point.</th> <th colspan="2">Strength.</th> <th rowspan="2">Percent</th>
+    </tr>
+    <tr>
+      <th>kg/mm</th> <th>lb/in</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hard</td> <td>0.45</td> <td>56.2</td> <td>80,000</td> <td>20</td>
+    </tr>
+    <tr>
+      <td>Mdeium</td> <td>0.45</td> <td>49.2</td> <td>70,000</td> <td>25</td>
+    </tr>
+    <tr>
+      <td>Soft</td> <td>0.45</td> <td>42.2</td> <td>60,000</td> <td>30</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+
+</html>
